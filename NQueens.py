@@ -1,3 +1,5 @@
+# Backtracking solution to the N Queens problem, where one must place N queens on an N*N board without any queen being in 
+# position to attack another queen.
 global n, queens, done
 n = int(input())
 board = [['.' for x in range(n)] for y in range(n)]
